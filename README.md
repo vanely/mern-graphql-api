@@ -1,1 +1,1 @@
-# practice-mern-app
+mern-graphql-api
