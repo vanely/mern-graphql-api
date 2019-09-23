@@ -4,8 +4,14 @@ const {Schema} = mongoose;
 
 const Todo = new Schema(
     {
-        text: {type: String},
-        complete: {type: Boolean},
+        text: {
+            type: String,
+            required: true,
+        },
+        complete: {
+            type: Boolean,
+            required: true,
+        },
     },
     {
         timestamps: true,
